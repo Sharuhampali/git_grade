@@ -7,12 +7,15 @@ interface ScoreBreakdown {
 }
 
 interface AIInput {
+  user: string;
+  repo: string;
   readme: string;
   tree: RepoFile[];
   commits: unknown[];
   languages: Record<string, number>;
   scoreBreakdown: ScoreBreakdown;
 }
+
 
 export function generateAIInsight(input: AIInput) {
   const { readme, tree, commits, languages, scoreBreakdown } = input;
