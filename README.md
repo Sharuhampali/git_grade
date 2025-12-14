@@ -11,7 +11,7 @@ It generates a **numerical score, experience level, a concise summary, and a per
 
 The goal is to help students and early developers understand *where they stand* and *what to improve next*, without inflated metrics or vague AI feedback.
 
-### 🔗 [**View Live Demo**](https://git-grade-kb4bwjjh2-sharuhampalis-projects.vercel.app)
+### 🔗 [**View Live Demo**]((https://git-grade-lovat.vercel.app/))
 
 
 
