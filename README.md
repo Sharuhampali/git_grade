@@ -11,9 +11,9 @@ It generates a **numerical score, experience level, a concise summary, and a per
 
 The goal is to help students and early developers understand *where they stand* and *what to improve next*, without inflated metrics or vague AI feedback.
 
-### 🔗 [**View Live Demo**](https://www.google.com/search?q=https://gitgrade.vercel.app)
+### 🔗 [**View Live Demo**](https://git-grade-kb4bwjjh2-sharuhampalis-projects.vercel.app)
 
-*(Note: Replace this link with your actual deployment URL when live)*
+
 
 -----
 
@@ -147,25 +147,7 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 -----
 
-## 📂 Project Structure
 
-```bash
-gitgrade/
-├── app/                  # Next.js App Router
-│   ├── api/              # Serverless API endpoints for fetching GitHub data
-│   ├── page.tsx          # Landing page
-│   └── report/           # Result/Score display page
-├── components/           # React components (shadcn/ui)
-│   ├── ui/               # Reusable primitives (buttons, cards, inputs)
-│   └── analysis/         # Visualizations for scores and roadmaps
-├── lib/                  # Utility functions
-│   ├── github.ts         # GitHub API fetch logic
-│   ├── scorer.ts         # The scoring algorithm logic
-│   └── types.ts          # TypeScript interfaces
-└── public/               # Static assets
-```
-
------
 
 ## 🔮 Future Roadmap
 
@@ -187,11 +169,3 @@ Contributions are welcome\! Please feel free to submit a Pull Request.
 5.  Open a Pull Request
 
 -----
-
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
------
-
-**Would you like me to create the `scorer.ts` logic file next to implement the weighted heuristic model described above?**
